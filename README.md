@@ -16,12 +16,22 @@ This is a simple iOS contact management application that interacts with a custom
 - Alamofire for network requests
 - CocoaPods for dependency management
 
+## Environment
+
+- Xcode 16.0
+- CocoaPods: 1.15.2
+- macOS 15.0
+
+**IMPORTANT:** This project can only be run on a Mac computer with the proper environment set up. It is designed to be run on an iOS 16.4 simulator for optimal performance.
+
 ## Setup
 
-1. Clone the repository
-2. Run `pod install` to install dependencies
-3. Open the `.xcworkspace` file in Xcode
-4. Build and run the project
+1. Ensure you have a Mac computer with the required environment (see above)
+2. Clone the repository
+3. Run `pod install` to install dependencies
+4. Open the `.xcworkspace` file in Xcode
+5. Select an iOS 16.4 simulator as the run target
+6. Build and run the project
 
 ## API Details
 
@@ -49,3 +59,7 @@ This project was developed as part of a learning exercise focusing on:
 - Network calls using Alamofire
 
 Note: This app uses HTTP connections for demo purposes. In a production environment, always use HTTPS for secure communications.
+
+## System Requirements
+
+This project is specifically designed for Mac environments and iOS development. It cannot be run on Windows or Linux systems. Ensure you have a Mac computer with Xcode and the necessary iOS development tools installed to use this application.
